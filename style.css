@@ -1,0 +1,27 @@
+.header{ /*Use for class*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    
+}
+
+/*a{ Uze for tag
+    text-decoration: none;
+}*/
+
+.header_list a{ /*Uze for liste-item(<li></li>)*/ 
+      text-decoration: none;
+      color: black;
+}
+
+.header_list li{ /*Uze for liste-item(<li></li>)*/
+    list-style-type: none;
+    display: inline-block;
+    margin-right: 35px;   
+}
+
+.header_list a:hover{
+    color: orange;
+    text-decoration: underline;
+}
