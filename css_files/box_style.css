@@ -1,0 +1,15 @@
+.block_register_form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+}
+
+.register_form {
+    display: flex;
+    flex-direction: column;
+}
+.register_input {
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+}

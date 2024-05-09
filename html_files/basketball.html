@@ -3,7 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <title>Basketball</title>
-    <link rel="stylesheet"  href="style.css">
+    <link rel="stylesheet" href="../css_files/style.css">
+    <link rel="stylesheet" href="../css_files/basketball_style.css">
 </head>
 <body>
     
@@ -24,17 +25,30 @@
     </div>
     
     <div>
-        <h2>Популярні спортсмени</h2>
-        <figure>
-            <img src="lebron.jpg" alt="Изображение" width="200px" height="150px">
-            <figcaption>Леброн Джеймс</figcaption><br>
-            <img src="michael_jordan.jpg" alt="Изображение" width="200px" height="150px">
-            <figcaption>Майкл Джордан</figcaption><br>
-            <img src=steph_curry.jpeg alt="Изображение" width="200px" height="150px">
-            <figcaption>Стефен Каррі</figcaption><br>
-            <img src="kobi_braynt.jpg" alt="Изображение" width="200px" height="150px">
-            <figcaption>Кобі Брайнт</figcaption>
-        </figure>
+        <h2 style="display: flex; justify-content: center; align-items: center;">Популярні спортсмени</h2>
+        <div class="players">
+           
+            <div class="player">
+            <img src="../img_files/lebron.jpg" alt="Изображение" width="200px" height="150px">
+            <h2>Леброн Джеймс</h2>
+            </div>
+
+            <div class="player">
+            <img src="../img_files/michael_jordan.jpg" alt="Изображение" width="200px" height="150px">
+            <h2>Майкл Джордан</h2>
+            </div>
+
+            <div class="player">
+            <img src="../img_files/steph_curry.jpeg" alt="Изображение" width="200px" height="150px">
+            <h2>Стефен Каррі</h2>
+            </div>
+
+            <div class="player">
+            <img src="../img_files/kobi_braynt.jpg" alt="Изображение" width="200px" height="150px">
+            <h2>Кобі Брайнт</h2>
+            </div>
+
+        </div>
     </div>
     
        <div>
@@ -67,6 +81,6 @@
                <button>Взяти участь</button>
            </form>
        </div>
-
+    
 </body>
 </html>

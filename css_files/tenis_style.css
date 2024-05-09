@@ -1,0 +1,10 @@
+.tenis_img{
+    display: flex;
+    justify-content: space-between;
+    width: 800px;
+    margin: 0 auto;
+}
+
+.tenis_img h2{
+    margin-top: 0px;
+}

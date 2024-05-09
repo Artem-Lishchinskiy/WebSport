@@ -1,9 +1,14 @@
+body{
+    margin: 0;
+}
+
 .header{ /*Use for class*/
     display: flex;
     justify-content: center;
     align-items: center;
     font-size: 24px;
-    
+    background-color: antiquewhite;
+    font-weight: bold;
 }
 
 /*a{ Uze for tag
