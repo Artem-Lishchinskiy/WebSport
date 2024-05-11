@@ -1,8 +1,8 @@
 .players{
-    display: flex;
-    justify-content: space-between;
-    width: 1200px;
-    margin: 0 auto;
+    display: flex; /*Властивість контейнера*/
+    justify-content: space-between; /*Розподілення контенту*/
+    width: 1200px; /*Ширина контейнера*/
+    margin: 0 auto; /*Зовнішіні відступи*/
 }
 
 .player h2{

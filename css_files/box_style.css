@@ -1,12 +1,12 @@
 .block_register_form{
-    display: flex;
-    flex-direction: column;
+    display: flex; /*Властивість контейнера*/
+    flex-direction: column; /*Властивість вирівнювання елементів у flex-контейнері*/
     align-items: center;    
 }
 
 .register_form {
     display: flex;
-    flex-direction: column;
+    flex-direction: column; /*Властивість вирівнювання елементів у flex-контейнері*/
 }
 .register_input {
     width: 300px;
