@@ -1,35 +1,64 @@
-body{
-    margin: 0; /*Зовнішні відступи*/
+body {
+    margin: 0;
+    /*Зовнішні відступи*/
 }
 
-.header{ /*Use for class*/
-    display: flex; /*Властивість відображення*/
-    justify-content: center; /*Розподілення в середині flex-контейнера*/
-    align-items: center; /*Властивість вирівнювання елементів вздовж вертикалі*/
-    font-size: 24px; /*Розмір тексту*/
-    background-color: antiquewhite; /*Колір заднього фону контейнера*/
-    font-weight: bold; /*Товщина шрифта*/
+.container {
+    max-width: 1280px;
+    margin: 0 auto;
 }
+
+.header {
+    min-height: 100vh;
+
+}
+
+.navbar {
+    /*Use for class*/
+    display: flex;
+    /*Властивість відображення*/
+    justify-content: center;
+    /*Розподілення в середині flex-контейнера*/
+    align-items: center;
+    /*Властивість вирівнювання елементів вздовж вертикалі*/
+    font-size: 24px;
+    /*Розмір тексту*/
+    background-color: antiquewhite;
+    /*Колір заднього фону контейнера*/
+    font-weight: bold;
+    /*Товщина шрифта*/
+}
+
+
 
 /*a{ Uze for tag
     text-decoration: none;
 }*/
 
-.header_list a{ /*Uze for <a></a> in list-item*/ 
-      text-decoration: none; /*Декорація тексту(лінія знизу та інше)*/
-      color: black; /*Колір елемента*/
+.header_list a {
+    /*Uze for <a></a> in list-item*/
+    text-decoration: none;
+    /*Декорація тексту(лінія знизу та інше)*/
+    color: black;
+    /*Колір елемента*/
 }
 
-.header_list li{ /*Uze for liste-item(<li></li>)*/
-    list-style-type: none; /*Тип маркування списку*/
-    display: inline-block; /*Відображення елементів гориз. - блоком*/
-    /*margin-right: 35px;*/  /*Зовнішній відступ з права */
-    padding-right: 35px; /*Внутрішній відступ з права*/
+.header_list li {
+    /*Uze for liste-item(<li></li>)*/
+    list-style-type: none;
+    /*Тип маркування списку*/
+    display: inline-block;
+    /*Відображення елементів гориз. - блоком*/
+    /*margin-right: 35px;*/
+    /*Зовнішній відступ з права */
+    padding-right: 35px;
+    /*Внутрішній відступ з права*/
 }
 
-.header_list a:hover{ /*Псевдо клас для наведення миші*/
-    color: orange; /*Колір елемента*/
-    text-decoration: underline; /*Нижня лінія для посилань*/
+.header_list a:hover {
+    /*Псевдо клас для наведення миші*/
+    color: orange;
+    /*Колір елемента*/
+    text-decoration: underline;
+    /*Нижня лінія для посилань*/
 }
-
-
