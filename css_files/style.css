@@ -1,16 +1,17 @@
 body {
     margin: 0;
     /*Зовнішні відступи*/
+    padding: 0;
+    /*Внутрішні відступи*/
 }
 
-.container {
+.container { /*Контейнер для всієї сторінки, щоб все було по центру*/
     max-width: 1280px;
     margin: 0 auto;
 }
 
 .header {
     min-height: 100vh;
-
 }
 
 .navbar {
@@ -35,6 +36,16 @@ body {
     text-decoration: none;
 }*/
 
+.header_list{ 
+    
+    display: flex;
+    width: 800px;
+    height: 65px; 
+    margin: 0 auto; 
+    justify-content: space-between;
+    align-items: center;
+}
+
 .header_list a {
     /*Uze for <a></a> in list-item*/
     text-decoration: none;
@@ -47,12 +58,6 @@ body {
     /*Uze for liste-item(<li></li>)*/
     list-style-type: none;
     /*Тип маркування списку*/
-    display: inline-block;
-    /*Відображення елементів гориз. - блоком*/
-    /*margin-right: 35px;*/
-    /*Зовнішній відступ з права */
-    padding-right: 35px;
-    /*Внутрішній відступ з права*/
 }
 
 .header_list a:hover {
